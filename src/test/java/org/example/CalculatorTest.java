@@ -33,6 +33,6 @@ public class CalculatorTest {
         Exception exception = assertThrows(IllegalArgumentException.class, () -> {
             calculator.divide(1, 0);
         });
-        assertEquals("Không thể chia cho 0!", exception.getMessage());
+        assertEquals("Không thể chia cho 0", exception.getMessage());
     }
 }
