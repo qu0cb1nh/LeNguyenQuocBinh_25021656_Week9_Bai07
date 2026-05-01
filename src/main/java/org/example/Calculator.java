@@ -25,7 +25,7 @@ public class Calculator {
         LOGGER.info("Thực hiện phép chia: {} / {}", a, b);
         if (b == 0) {
             LOGGER.error("Lỗi: Không thể chia cho 0!");
-            throw new IllegalArgumentException("Không thể chia cho 0!");
+            throw new IllegalArgumentException("Không thể chia cho 0");
         }
         return (double) a / b;
     }
