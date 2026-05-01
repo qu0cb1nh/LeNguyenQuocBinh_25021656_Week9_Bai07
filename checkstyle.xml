@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+        "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+        "https://checkstyle.org">
+
+<module name="Checker">
+    <!-- Kiểm tra file có kết thúc bằng dòng trống không -->
+    <module name="NewlineAtEndOfFile"/>
+
+    <module name="TreeWalker">
+        <!-- Kiểm tra đặt tên biến (phải là camelCase) -->
+        <module name="MemberName">
+            <property name="format" value="^[a-z][a-zA-Z0-9]*$"/>
+        </module>
+
+        <!-- Kiểm tra đặt tên phương thức (phải là camelCase) -->
+        <module name="MethodName"/>
+
+        <!-- Kiểm tra độ dài dòng code -->
+        <module name="LineLength">
+            <property name="max" value="150"/>
+        </module>
+    </module>
+</module>
