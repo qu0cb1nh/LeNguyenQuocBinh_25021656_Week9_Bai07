@@ -24,3 +24,4 @@ jobs:
           checkstyle_config: checkstyle.xml
           level: error
           fail_level: any
+          filter_mode: nofilter
