@@ -6,11 +6,6 @@
 <module name="Checker">
     <property name="charset" value="UTF-8"/>
 
-    <module name="LineLength">
-        <property name="max" value="100"/>
-        <property name="ignorePattern" value="^package.*|^import.*|a href|href|http://|https://|ftp://"/>
-    </module>
-
     <module name="TreeWalker">
 
         <module name="TypeName"/>
@@ -19,11 +14,9 @@
             <property name="format" value="^[a-z][a-zA-Z0-9]*$"/>
         </module>
 
+        <module name="MemberName"/>
+
         <module name="WhitespaceAround"/>
-
-        <module name="NeedBraces"/>
-
-        <module name="LeftCurly"/>
 
     </module>
 </module>
