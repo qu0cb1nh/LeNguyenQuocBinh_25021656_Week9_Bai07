@@ -22,5 +22,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-review
           checkstyle_config: checkstyle.xml
-          level: 'error'
-          fail_level: 'error'
+          level: error
+          fail_level: any
