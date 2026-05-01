@@ -10,7 +10,7 @@ public class CalculatorTest {
 
     @Test
     public void testAdd() {
-        assertEquals(5, calculator.add(2, 3), "2 + 3 phải bằng 5");
+        assertEquals(5, calculator.Add(2, 3), "2 + 3 phải bằng 5");
     }
 
     @Test

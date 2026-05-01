@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 public class Calculator {
     private static final Logger LOGGER = LoggerFactory.getLogger(Calculator.class);
 
-    public int add(int a, int b) {
+    public int Add(int a, int b) {
         LOGGER.info("Thực hiện phép cộng: {} + {}", a, b);
         return a + b;
     }
